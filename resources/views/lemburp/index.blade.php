@@ -3,11 +3,11 @@
     active
 @endsection
 @section('content')
-<h3>Lembur Pegawai</h3>
+<h3>LEMBUR PEGAWAI</h3>
 	<table border="1" class="table table-striped table-border table-hover">
 		<thead>
 			<tr>
-				<th>Lembur Ke-</th>
+				<th>Lembur Ke</th>
 				<th>Nama Pegawai</th>
 				<th>Kode Kategori Lembur</th>
 				<th>Jumlah Jam</th>

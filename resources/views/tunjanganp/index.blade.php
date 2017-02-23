@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<h3>Tunjangan Pegawai</h3>
+<h3>TUNJANGAN PEGAWAI</h3>
 	<table border="1" class="table table-striped table-border table-hover">
 	
 		<thead>

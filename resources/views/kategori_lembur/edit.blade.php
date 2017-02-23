@@ -26,7 +26,7 @@
                         </div>
 
                         <div class="form-group{{ $errors->has('golongan_id') ? ' has-error' : '' }}">
-                            <label for="golongan_id" class="col-md-4 control-label">Nama Golongan</label>
+                            <label for="golongan_id" class="col-md-4 control-label">Kategori Lembur</label>
 
                             <div class="col-md-6">
                                 <select name="golongan_id" class="form-control">
@@ -58,6 +58,20 @@
                                 @if ($errors->has('jabatan_id'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('jabatan_id') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group{{ $errors->has('besar_uang') ? ' has-error' : '' }}">
+                            <label for="besar_uang" class="col-md-4 control-label">Besar Uang</label>
+
+                            <div class="col-md-6">
+                                {!! Form::text('besar_uang',null,['class'=>'form-control']) !!}
+
+                                @if ($errors->has('besar_uang'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('besar_uang') }}</strong>
                                     </span>
                                 @endif
                             </div>

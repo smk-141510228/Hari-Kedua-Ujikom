@@ -5,7 +5,7 @@
 @section('content')
 			        <div class="col-md-10 col-md-offset-0">
 			            <div class="panel panel-danger">
-			                <div class="panel-heading">Pegawai</div>
+			                <div class="panel-heading">PEGAWAI</div>
 			                <div class="panel-body">
 			                	<table border="2" class="table table-success table-border table-hover">
 									<thead >
@@ -45,7 +45,7 @@
 			        <div class="col-md-10 ">
 			   
 			            <div class="panel panel-danger">
-			                <div class="panel-heading">User</div>
+			                <div class="panel-heading">USER</div>
 			                <div class="panel-body">
 			                	<table border="2" class="table table-success table-border table-hover">
 									<thead >

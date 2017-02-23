@@ -6,9 +6,9 @@
 <h1>Edit Pegawai</h1>
 	<div class="container">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-10">
             <div class="panel panel-danger">
-                <div class="panel-heading">Edit Pegawai</div>
+                <div class="panel-heading">Edit User</div>
                 <div class="panel-body">
                     {!! Form::model($pegawai,['method'=>'PATCH','route'=>['pegawai.update',$pegawai->id],'enctype'=>'multipart/form-data']) !!}
     
@@ -57,10 +57,12 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
+        <br>
+        <br>
+        <div class="col-md-10">
             <div class="panel panel-danger">
                 <div class="panel-heading">
-                    <div class="panel-title">Tambah Pegawai</div>
+                    <div class="panel-title">Edit Pegawai</div>
                 </div>
                 <div class="panel-body">
                     <div class="form-group{{ $errors->has('nip') ? ' has-error' : '' }}">

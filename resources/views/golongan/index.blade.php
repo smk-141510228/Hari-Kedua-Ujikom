@@ -4,7 +4,7 @@
 @endsection
 @section('content')
 <th>
-<h3>Golongan</h3></th>
+<h3>GOLONGAN</h3></th>
 	<table border="1" class="table table-striped table-border table-hover">
 		<thead>
 			<tr>

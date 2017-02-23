@@ -3,7 +3,7 @@
     active
 @endsection
 @section('content')
-<h3>Kategori Lembur</h3>
+<h3>KATEGORI LEMBUR</h3>
 	<table border="1" class="table table-striped table-border table-hover">
 		<thead>
 			<tr>

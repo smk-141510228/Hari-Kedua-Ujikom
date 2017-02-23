@@ -68,8 +68,10 @@
         <div class="flex-center position-ref full-height">
              @if (Auth::guest())
                     <div class="top-right links">
+                        
                         <a href="{{ url('/login') }}">Login</a>
                         <a href="{{ url('/register') }}">Register</a>
+                        
                     </div>
             @else
                     <div class="top-right links">
